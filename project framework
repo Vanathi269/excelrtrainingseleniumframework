@@ -1,0 +1,45 @@
+project notes:
+
+frame note
+---sturcture or guildelines or rules to build something
+---not just one project,a lot things integraated ,easier to communicate
+
+types
+1.TDD>> test driven developement
+2.BDD>> behaviour driven developement
+
+design pattern:
+how will you write your testcases
+1.singleton
+2.page object model>>POM--for evry page of your appliocation there will be corresponding class
+
+loggers
+testng reports
+extend reports
+apache poi
+
+
+project folder:
+src/main/java : will contain the actual code
+src/main/resource : config or etc file
+
+src/test/java : will contain only test cases
+src/test/resource : test data file
+
+our project:
+build tool : maven
+framework :TDD
+design pattern :pom
+ci/cd : gitHub and jenkins(continuous integration and continuous developement)
+
+testcase knows>>--- what are testing,expected output , how to comparee
+doesn't knows >>--what is the actual output and how to get the actual output
+
+code knows>>---how to get and return the expected output
+doesn't knows>>---what we are testing, expected output, how to compare
+
+Execution:
+1.individual class files
+2.testng XML file
+3.maven XML file
+4.jenkins

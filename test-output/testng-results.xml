@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T19:30:29 IST" name="Default suite" finished-at="2022-12-23T19:30:44 IST" duration-ms="14813">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T19:30:29 IST" name="Default test" finished-at="2022-12-23T19:30:44 IST" duration-ms="14813">
+      <class name="com.framework.testcase.loginpageTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:com.framework.testcase.loginpageTest@6dc17b83]" started-at="2022-12-23T19:30:29 IST" name="browsersetup" finished-at="2022-12-23T19:30:43 IST" duration-ms="14519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="validatetitleTest()[pri:0, instance:com.framework.testcase.loginpageTest@6dc17b83]" started-at="2022-12-23T19:30:43 IST" name="validatetitleTest" finished-at="2022-12-23T19:30:44 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitleTest -->
+        <test-method is-config="true" signature="closesetup()[pri:0, instance:com.framework.testcase.loginpageTest@6dc17b83]" started-at="2022-12-23T19:30:44 IST" name="closesetup" finished-at="2022-12-23T19:30:44 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+      </class> <!-- com.framework.testcase.loginpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
