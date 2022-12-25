@@ -5,9 +5,9 @@
     <classes>
       <class name="com.framework.testcase.loginpageTest">
         <methods>
+          <include name="validateloginTest"/>
           <include name="browsersetup"/>
           <include name="closesetup"/>
-          <include name="validatetitleTest"/>
         </methods>
       </class> <!-- com.framework.testcase.loginpageTest -->
     </classes>
