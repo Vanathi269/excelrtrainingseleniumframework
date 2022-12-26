@@ -6,7 +6,7 @@ import com.excelr.base.OHRMbase;
 
 public class dashboardpage extends OHRMbase {
 	public boolean dashboardleftmenu() {
-		 return driver.findElement(By.xpath("//span[text()='dashboard']")).isDisplayed();
+		 return driver.findElement(By.xpath("//a[text()='dashboard']")).isDisplayed();
 		}
 	public boolean quicklaunchsection() {
 		 return driver.findElement(By.xpath("//p[text()='Quick Launch']")).isDisplayed();
